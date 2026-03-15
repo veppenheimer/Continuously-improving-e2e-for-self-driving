@@ -1,4 +1,7 @@
 ------------2026 3.15改动------------
+
+
+
 更改模型权重保存策略，不再选择loss最小的pth，添加validation loop
 添加early stopping 机制，防止过拟合，添加可视化Learning Curve，添加推理FPS统计
 更改数据集划分策略，添加验证集。
